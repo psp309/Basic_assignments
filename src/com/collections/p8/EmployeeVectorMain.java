@@ -3,7 +3,11 @@ package com.collections.p8;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Vector;
-
+/*
+* Write a program that will have a Vector which is capable of storing emp objects. Use an
+Iterator and enumeration to list all the elements of the Vector.
+*
+* */
 public class EmployeeVectorMain {
     public static void main(String[] args) {
         List<Employee> employees=new Vector<>();

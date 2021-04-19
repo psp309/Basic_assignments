@@ -3,7 +3,10 @@ package com.collections.p4;
 
 import java.util.ArrayList;
 import java.util.List;
-
+/*
+* Create an ArrayList which will be able to store only numbers like int,float,double,etc, but
+not any other data type.
+* */
 class ArrayListIntFloatDoubleElements<O> extends ArrayList<O> {
     @Override
     public boolean add(O o) {

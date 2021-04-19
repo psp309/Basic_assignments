@@ -4,7 +4,11 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Scanner;
-
+/*
+Create an ArrayList of Employee( id,name,address,sal) objects and search for particular
+Employee object based on id number.
+*
+* */
 public class EmployeeMain {
     public static void main(String[] args) {
 

@@ -3,7 +3,21 @@ package com.collections.p2.treeset.service;
 
 import com.collections.p2.treeset.bean.Employee;
 import com.collections.p2.treeset.bean.EmployeeDB;
-
+/*
+* 1. Create an application for employee management having following classes: a)
+Create an Employee class with following attributes and behaviors : i) EmpId Int ii)
+EmpName String iii) EmpEmail String iv) EmpGender char v) EmpSalary float vi)
+GetEmployeeDetails() -> prints employee details
+b) Create one more class EmployeeDB which has the following methods. i) boolean
+addEmployee(Employee e) ii) boolean deleteEmployee(int empId) iii) String
+showPaySlip(int empId) iv) Employee[] listAll()
+*
+* Use a TreeSet Object to store employees on the
+basis of their EmpId and use enumeration/iterator to process employees. [Hint:
+Use Comparable interface] Write a Test Program to test that all functionalities are
+operational.
+List enumeration / Iterator
+* */
 public class EmployeeManagementTreeset {
     public static void main(String[] args) {
         EmployeeDB employeeDB=new EmployeeDB();

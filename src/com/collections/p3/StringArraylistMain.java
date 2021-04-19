@@ -3,6 +3,10 @@ package com.collections.p3;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+/*
+*Create an ArrayList which will be able to store only Strings. Create a printAll method
+which will print all the elements using an Iterator.
+* */
 
 public class StringArraylistMain {
     public static void main(String[] args) {
